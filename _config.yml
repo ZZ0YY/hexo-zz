@@ -101,7 +101,10 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:ZZ0YY/hexo-starter.git  # SSH 地址
+  branch: main  # 确保与你的 GitHub 仓库默认分支一致（通常是 main）
+
 
 # abbrlink config
 ## https://github.com/rozbo/hexo-abbrlink
