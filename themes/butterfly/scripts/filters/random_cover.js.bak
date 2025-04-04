@@ -56,14 +56,9 @@ hexo.extend.generator.register('post', locals => {
       coverVal = randomCover // update coverVal
     }
 
-// 修复 coverVal 类型错误
-if (!Array.isArray(coverVal)) coverVal = [];  // 确保 coverVal 是数组
-
-if (coverVal.some(item => 
-  item.includes('//') || imgTestReg.test(item)
-)) {
-  data.cover_type = 'img';
-}
+    if (coverVal && (coverVal.indexOf('//') !== -1 || imgTestReg.test(coverVal))) {
+      data.cover_type = 'img'
+    }
 
     return data
   }
