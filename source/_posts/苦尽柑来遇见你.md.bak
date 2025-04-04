@@ -4,47 +4,108 @@ categories:
   - 资源贴
 tags:
   - 爱情
-date: 2025-03-07 00:00:00
+date: 2025-04-03 00:00:00
+cover:
+  image: https://5b2.tech/uploads/2025/04/01/67eb45eb4e991.jpg
+  style: full
 ---
 
-## 关于《苦尽柑来遇见你》
+<style>
+.movie-card {
+  background: rgba(255,255,255,0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+  overflow: hidden;
+  margin: 2rem auto;
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: 250px 1fr;
+}
 
-**评分**：暂无  
-**年份**：2025  
-**类型**：爱情  
+.movie-poster img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
-### 主演
-- 李知恩
-- 朴宝剑
-- 文素利
-- 朴解浚
-- 金容琳
-- 罗文姬
-- 廉惠兰
-- 吴敏爱
-- 崔代勋
-- 张慧珍
-- 白智媛
-- 嵯美暻
-- 郑熙俊
-- 安津罗森
-- 吴正世
-- 严志媛
-- 金宣虎
-- 李濬荣
-- 郑伊书
-- 金太延
-- 李天茂
-- 柳炳勋
-- 李秀卿
-- 李秀美
+.movie-info {
+  padding: 1.5rem;
+  background: linear-gradient(45deg, #f8f9fa, #ffffff);
+}
 
-### 剧情简介
-该剧讲述叛逆勇敢的爱纯（李知恩 饰）与坚定不移的宽植（朴宝剑 饰）在济州岛花开花落四季中的动人故事。
+.movie-title {
+  color: #2c3e50;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e74c3c;
+  padding-bottom: 0.5rem;
+}
+
+.movie-details {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  gap: 0.8rem;
+  font-size: 0.95rem;
+}
+
+.detail-label {
+  color: #7f8c8d;
+  font-weight: 500;
+}
+
+.movie-plot {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background: #f8f9fa;
+  border-left: 4px solid #e74c3c;
+}
+
+.plot-title {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .movie-card {
+    grid-template-columns: 1fr;
+  }
+  .movie-poster {
+    height: 300px;
+  }
+}
+</style>
+
+<div class="movie-card">
+  <div class="movie-poster">
+    <img src="https://5b2.tech/uploads/2025/04/01/67eb45eb4e991.jpg" alt="苦尽柑来遇见你 海报">
+  </div>
+  <div class="movie-info">
+    <h2 class="movie-title">苦尽柑来遇见你<br><small>폭싹 속았수다</small></h2>
+    <div class="movie-details">
+      <div class="detail-label">评分：</div>
+      <div>9.6</div>
+      <div class="detail-label">年份：</div>
+      <div>2025</div>
+      <div class="detail-label">类型：</div>
+      <div>剧情、爱情、历史</div>
+      <div class="detail-label">导演：</div>
+      <div>金元锡</div>
+      <div class="detail-label">主演：</div>
+      <div>李知恩、朴宝剑、文素利、朴解浚、廉惠兰、吴敏爱、崔代勋、张慧珍、白智媛、嵯美暻、郑熙俊、安津罗森、吴正世、严志媛、金宣虎、李濬荣、郑伊书、金太延、李天茂、柳炳勋、李秀卿、李秀美</div>
+    </div>
+  </div>
+</div>
+
+<div class="movie-plot">
+  <h3 class="plot-title">剧情简介</h3>
+  <p class="plot-content">该剧讲述叛逆勇敢的爱纯（李知恩 饰）与坚定不移的宽植（朴宝剑 饰）在济州岛花开花落四季中的动人故事。</p>
+</div>
 
 ### 下载链接
 - [资源下载](https://www.123912.com/s/IXmlVv-ecvE3? 提取码：blbl)
 提取码：blbl
+
 ---
 
 ### 免责声明
