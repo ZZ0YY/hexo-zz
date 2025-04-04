@@ -289,7 +289,7 @@ aside:
     description:
     button:
       enable: true
-      icon: fa-brands fa-bilibili
+      icon: fab fa-github
       text: 关注我的B站不迷路
       link: https://b23.tv/IDADCCS
   card_announcement:
